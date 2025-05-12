@@ -18,7 +18,7 @@ export const App = () => {
             <SuperButton title={"RedSuperButtonq"} onClick={()=>{}} color={"secondary"}>RedSuperButton dsfds</SuperButton>
             <SuperButton title={"RedSuperButtoxzcn"} onClick={()=>{}}>RedSuperButton</SuperButton>
             <SuperButton title={"RedSuperButton"} onClick={()=>{}} disabled >RedSuperButton</SuperButton>*/}
-            <SuperCrosses crosses={crosses}>
+            {/* <SuperCrosses crosses={crosses}>
                 <div>cfdsfsdf</div>
                 <div>cfdsfsdf</div>
                 <div>cfdsfsdf</div>
@@ -43,7 +43,22 @@ export const App = () => {
             </SuperCrosses>
             <SuperCrosses crosses={crosses}>
                 <div>dssdADASDASDAdada</div>
-            </SuperCrosses>
+            </SuperCrosses>*/}
+            <Modal>
+                <div>Confident information</div>
+                <input type={"text"} placeholder={'email'}/>
+                <input type={"password"} placeholder={'password'}/>
+                <input type={"password"}/>
+                <label><input type={'checkbox'} checked/>i agree</label>
+                <button>send</button>
+            </Modal>
+        {/*    <Modal>
+                <div>Confident information</div>
+                <input type={"email"}/>
+                <input type={"password"}/>
+
+
+            </Modal>*/}
         </div>
     );
 }
